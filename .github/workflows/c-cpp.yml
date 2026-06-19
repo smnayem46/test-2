@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+	char StudentName[] = "NAYEM";
+	double StudentID = 41260103192;
+
+	printf("Student Name: %s\n", StudentName);
+	printf("Student ID: %.0lf\n", StudentID);
+
+	return 0;
+}
